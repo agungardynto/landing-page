@@ -1,0 +1,16 @@
+.profile .img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+.profile img {
+    width: 300px;
+    margin: auto;
+}
+
+.profile h1 {
+    font-weight: 700;
+}
