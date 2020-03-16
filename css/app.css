@@ -25,11 +25,6 @@
     font-weight: 400;
 }
 
-.img-galery img {
-    width: 350px;
-    height: 300px;
-}
-
 footer {
     display: flex;
     height: 50px;
