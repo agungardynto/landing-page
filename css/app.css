@@ -1,16 +1,57 @@
-.profile .img {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
+.navbar .navbar-brand {
+    color: tomato;
+    transition: all 1s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    color: #fff !important;
+    transition: all 1s ease;
+}
+
+.navbar-nav .nav-item:hover {
+    color: tomato !important;
 }
 
 .profile img {
     width: 300px;
-    margin: auto;
+    height: 300px;
 }
 
 .profile h1 {
-    font-weight: 700;
+    font-weight: 400;
+}
+
+.img-galery img {
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: tomato;
+}
+
+.profile img {
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.col-sm-4 img {
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.profile img:hover,
+.col-sm-4 img:hover {
+    border-radius: 10px;
+    border: 2px solid tomato;
+    transform: scale(1.1);
 }
